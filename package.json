@@ -9,10 +9,13 @@
         "node": ">=6.9.1"
     },
     "bin": {
-        "app" : "."
+        "app": "."
     },
     "scripts": {
         "start": "node index.js",
-        "build": "pgk ."
+        "build": "pkg ."
+    },
+    "dependencies": {
+        "pkg": "^4.3.4"
     }
 }
