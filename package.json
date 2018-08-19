@@ -14,8 +14,5 @@
     "scripts": {
         "start": "node index.js",
         "build": "pkg ."
-    },
-    "dependencies": {
-        "pkg": "^4.3.4"
     }
 }
