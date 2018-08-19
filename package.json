@@ -8,7 +8,11 @@
     "engines": {
         "node": ">=6.9.1"
     },
+    "bin": {
+        "app" : "."
+    },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "pgk ."
     }
 }
